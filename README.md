@@ -1,131 +1,291 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Bright Futures
 
-Welcome Geraldine Edwards,
+![Bright Futures - Project Banner](/documentation/images/place filename for screenshot here)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+<p align="center">
+| <a href="place link here" target="_blank">Live Project</a> |
+</p>
 
-## Gitpod Reminders
+## Introduction 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+For my first individual formative HTML, CSS & Bootstrap assignment for the Code Institute AI Augmented FullStack Bootcamp, I created a project based upon the goals and features proposed in Project 1: "Diversity & Inclusion".
 
-`python3 -m http.server`
+Live project: <a href="place link here" target="_blank">Bright Futures</a>
 
-A blue button should appear to click: _Make Public_,
+<h2 align="center" id="TOC">Table of Contents</h2>
 
-Another blue button should appear to click: _Open Browser_.
+* [Bright Futures](#bright-futures)
+  - [Introduction](#introduction)
+  - [Table of Contents](#TOC)
+  - [Project Ouline](#project-outline)
+* [Project Planning](#project-planning)
+    - [UX Design](#ux-design)
+      - [Strategy](#strategy)
+        - [User Stories](#user-stories)
+      - [Scope](#scope)
+        - [Features](#features)
+            - [Navigation and Hero Section](#navigation-and-hero-section)
+            - [Bootstrap Grid/Cards](#bootstrap-grid-cards)
+            - [Book a talk/Volunteer](#book-a-talk-volunteer)
+            - [Resources](#resources-section)
+            - [Footer](#footer)
+            - [Links and Buttons](#links-and-buttons)
+      - [Structure](#structure)
+        - []()
+      - [Skeleton](#skeleton)
+        - [Wireframes](#wireframes)
+      - [Surface](#surface)        
+        - [Colors](#colors)
+        - [Fonts](#fonts)
+        - [Imagery](#imagery)
+        - [Resnposive Design](#responsive-design) 
+* [Built With](#built-with)
+  - [Technology and Languages](#technologies-and-languages)
+  - [Libraries and Frameworks](#libraries-and-frameworks)
+  - [Tools & Programs](#tools-and-programs)
+* [Development](#deployment)
+* [Testing](#testing)
+* [Credits](#credits)
+  - [Code](#code)
+  - [Content Research](#content-research)
+  - [Media](#media)
+  - [Acknowledgements](#acknowledgements)
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
 
-A blue button should appear to click: _Make Public_,
+<p align="right"><a href="#provide link here">Back To Top</a></p>
 
-Another blue button should appear to click: _Open Browser_.
+## Project Outline
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Bright Futures is a fictional organisation dedicated to the providing parents and teachers with resources and information to support their conversations around diveristy and inclusion to children of primary school age. The webpage developed for this organisation provides clear and concise basic concepts, a list of tips, details about the organisation's mission statement, testimonials/reviews, a variety of resources and links to further research, contact details, plus an oppotunity to book a talk with a Bright Future's Diversity and Inclusion ambassador or to volunteer to become one. The webpage is well-designed and easy-to-navigate, appealing, responsive across multiple devices and adheres to accessibility standards.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## UX Design
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+The following details are based upon the 5 planes of user experience (UX). The five planes of user experience (UX) are a framework for UX design that are stacked on top of each other, from abstract to concrete and credited to be developed by Jesse James Garrett, author of The Elements of User Experience.   
 
-### Connecting your Mongo database
+## Strategy: The most abstract plane, where you balance business objectives with user needs. This is where you determine long-term and short-term goals, and what users will want from the product in the form of User Stories. 
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+User Stories: 
 
-------
+1: As a PARENT/TEACHER, I want to NAVIGATE EASILY through the website so that I can FIND THE INFORMATION I need.
 
-## Release History
+2: As a PARENT/TEACHER, I want to see HIGH QUAITY IMAGES and ENGAGING DESCRIPTIONS of Diversity & Inclusion concepts so that I can get a VISUAL UNDERSTANDING of how to teach these concepts to my child/classroom of children.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+3: As a PARENT/TEACHER, I want to UNDERSTAND THE BASIC CONCEPTS of diversity and inclusion so that I can EXPLAIN THEM to my child/classroom of children.
 
-**June 18, 2024,** Add Mongo back into template
+4: As a PARENT/TEACHER, I want to FIND RESOURCES that teach diversity and inclusion to primary school age children so that I can INTEGRATE THESE CONCEPTS into conversations with my child/classroom of children.
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+5: As a PARENT/TEACHER, I want to FIND RELEVANT LINKS to other research that support diversity and inclusion so that I can EXPLORE MORE IN-DEPTH information.
 
-**May 28 2024:** Fix Mongo and Links installs
+6: As a SITE USER, I need to FIND ESSENTIAL CONTACT INFORMATION details so that I can GET SUPPORT, PROVIDE FEEDBACK, or EXPLORE SOCIAL MEDIA presence.
 
-**April 26 2024:** Update node version to 16
+7: As a PARENT/TEACHER I want to book a talk from, or volunteer to be, a diversity and inclusion ambassador, using a simple booking inquiry form, so I can organise a visit or get involved.
 
-**September 20 2023:** Update Python version to 3.9.17.
+8: As a PARENT/TEACHER I want to RECEIVE NEWSLETTERS OR UPDATES about new resources and content so that I can STAY INFORMED about diversity and inclusion.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+9: As a PROSPECTIVE VOLUNTEER/CUSTOMER, I want to read testimonials and reviews from other customers/volunteers, so I can gauge the experiences of others and feel more confident about booking a talk or becoming a volunteer.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+<hr>
+<p align="right"><a href="#add link here">Back To Top</a></p>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Scope: You transform strategy into requirements by defining the product or service's characteristics. This is where you determine what features will be integral to the product.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Features
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### General Features
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+#### Navigation and Hero Section
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![Navigation & Hero](/documentation/images/.webp)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### Bootstrap Cards
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+![Cards](/documentation/images/.webp)
 
-## FAQ about the uptime script
+#### Research Section
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+![Research Section](/documentation/images/.webp)
 
-**How will this affect me?**
+#### Footer
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+#### Links and Buttons
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+<hr>
+<p align="right"><a href="#add link here">Back To Top</a></p>
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Structure: This is where you arrange the site's functions. 
 
-**Anything more?**
+## features go here.........
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+<hr>
+<p align="right"><a href="#add link here">Back To Top</a></p>
 
----
 
-Happy coding!
+## Skeleton: This is where you design the placement of buttons, tabs, photos, and text blocks
+
+### Wireframes
+
+I designed the website using wireframes by utilising the Balsamiq software [Balsamiq](https://balsamiq.com/) as part of the User Design Skeleton process. U
+
+**Mobile Wireframe**
+![Mobile Wireframe](/documentation/images/.webp)
+
+**Tablet Wireframe**
+![Tablet Wireframe](/documentation/images/.webp)
+
+**Desktop Wireframe**
+![Desktop Wireframe](/documentation/images/.webp)
+
+
+
+<hr>
+<p align="right"><a href="#add link here">Back To Top</a></p>
+
+
+## Surface: This is the most concrete plane. Design, colours, typography.
+
+## Colors
+
+
+
+compliance to standards,  [Colour Contrast Checker](https://colourcontrast.cc/) <br>
+Both the [WebAIM](https://webaim.org/resources/contrastchecker/) 
+
+### Main Palette
+
+
+
+![Color Contrast Checker Results](/documentation/images/color-contrast.gif)
+
+
+<hr>
+<p align="right"><a href="#add link here">Back To Top</a></p>
+
+## Fonts
+
+
+ [Google Fonts](https://fonts.google.com) using a direct import code within the style.css file.
+
+
+<hr>
+<p align="right"><a href="#add link herer>Back To Top</a></p>
+
+
+## Images
+
+
+
+<hr>
+<p align="right"><a href="#add link here">Back To Top</a></p>
+
+
+### Responsive Design
+
+Used [Bootstrap Framework](https://getbootstrap.com/docs/5.3/getting-started/introduction/) rather than needing media queries.
+used dec tools to check
+
+During testing it was apparent that `display-6` was too large for the navbar brand text so this was removed to increase responsivity.
+
+<hr>
+<p align="right"><a href="#add link here">Back To Top</a></p>
+
+
+## Built With
+
+### Technologies and Languages
+HTML 5, 
+CSS
+GIT
+GITHUB
+GITPOD
+
+
+
+### Libraries and Frameworks
+
+
+Bootsrap
+Font Awesome
+Goolge Fonts
+
+
+
+### Tools and Programs
+Balsamiq
+Procreate 
+Squoosh
+The Noun Project
+Perplexity.ai
+Microsoft Copilot
+ChatGPT
+
+
+
+<hr>
+<p align="right"><a href="#add link here">Back To Top</a></p>
+
+
+## Deployment
+
+
+Step by step how to go through deployment
+
+
+
+<hr>
+<p align="right"><a href="#aadd link here">Back To Top</a></p>
+
+
+## Testing
+
+Continuous testing throughout project
+
+Dev Tools in Chrome Browser.
+
+[HTML Validation](https://validator.w3.org/)<br>
+
+[CSS Validation](https://jigsaw.w3.org/css-validator/)<br>
+
+[Lighthouse](https://developer.chrome.com/docs/lighthouse/overview)<br>
+
+
+<hr>
+<p align="right"><a href="#add link here">Back To Top</a></p>
+
+## Credits
+
+### Code
+
+LMS learning by [Code Institute](https://codeinstitute.net/ie/)<br>
+
+Other resources:
+
+- [Bootstrap Docs](https://getbootstrap.com/docs/5.3)
+
+
+
+### Media
+
+
+
+### Acknowledgements
+
+- Dawn, Amanda, Joanna, Maja, Maebh (fellow C.I. Bottcamp peers) for providing feedback on ... in particular...
+- Dillon (our facilitator) for providing feedback on.... in particular.....
+- My family for providing general support to keep my confidence going and their feedback on ... in particularr...
+
+<hr>
+<p align="right"><a href="#add link here">Back To Top</a></p>

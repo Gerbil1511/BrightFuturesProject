@@ -16,134 +16,211 @@
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
-<!-- flex classes on body set to work with mt-auto on footer, ensure footer always stays at the bottom of the page -->
 
-<body class="d-flex flex-column min-vh-100">
+<body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#"> <img src="" alt="" class="logo"> Bright Futures</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"> <img src="" alt="" class="logo"> Bright Futures</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="booking.html">Book a talk or Volunteer with us</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="booking.html">Book a talk or Volunteer with us</a>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="research.html">Research</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="research.html">Research</a>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link  dropdown-toggle" href="index.html" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Resources
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#books">Books</a>
-                            <a class="dropdown-item" href="#posters">Download posters</a>
-                            <a class="dropdown-item" href="#videos">YouTube videos</a>
-                        </ul>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="index.html" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Resources
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#books">Books</a>
+                                <a class="dropdown-item" href="#posters">Download posters</a>
+                                <a class="dropdown-item" href="#videos">YouTube videos</a>
+                            </ul>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
 
-                </ul>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-</body>
+        </nav>
+    </header>
 
-<main>
+    <main>
+        <!-- heading image -->
+        <section id="hero" class="col-sm-12 col-md-8 col-lg-6">
+            <div id="cover-text">
+                <h1 class="display-1 mx-5"><strong>Welcome to Bright Futures</strong></h1>
+            </div>
+            <div class="sr-only">A circle group of children with hands together at the center</div>
+        </section>
 
-    <div class="container">
-        <div class="row">
-            <div class="container mt-4 mb-3">
-                <h1 class="display-1"><strong>Welcome to Bright Futures</strong></h1>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-6 mt-2">  
-                <!-- mb-5 gives extra margin spacing under subheading -->
-                <h2 class="mb-5 display-6">Guiding parents and teachers in the provision of Diversity and Inclusion
-                education
-                for young children.</h2>
-            </div>
-            <div class="col-6">
-                <img src="assets/images/hands-together.webp" alt="a circle group of children put their hands together towards the centre">
-            </div>
-        </div>
-    </div>
-</main>
+        <section class="container my-5">
+                <div class="row">
+                    <div class="col-6 mt-2">
+                        <h2 class="display-6">Guiding parents and teachers in the provision of Diversity and
+                            Inclusion
+                            education
+                            for young children.</h2>
+                    </div>
+                </div>
+        </section>
 
-<!-- Footer -->
-<!-- mt-auto added to push footer to the bottom of the page -->
-<footer id="contact" class="bg-light text-center mt-auto">
-    <div class="container section p-4">
-        <div class="row">
-            <div class="col-lg-4 col-md-12 mb-4 text-lg-start">
-                <h5 class="text-uppercase">Bright Futures</h5>
-            </div>
-            <div class="col-lg-4 col-md-12 mb-4">
-                <h5 class="text-uppercase">Contact Us</h5>
-                <p>
-                    Address: 123 Bright Street, Future City, 12345<br>
-                    Email: info@brightfutures.com<br>
-                    Phone: +123 456 7890
-                </p>
-            </div>
-            <div class="col-lg-4 col-md-12 mb-4 text-lg-end">
-                <h5 class="text-uppercase ">Follow Us</h5>
-                <a href="#" class="me-4 ms-lg-4 text-reset">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="#" class="me-4 text-reset">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="#" class="me-4 text-reset">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="#" class="text-reset">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-</footer>
+            <main>
+                <!-- main element to hold all key sections of the homepage. It is NOT part of the grid structure -->
+                <main>
+                    <!-- card sections -->
+                    <div class="container my-5">
+                        <div class="row mb-5">
 
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-<!-- Font Awesome -->
-<script src="https://kit.fontawesome.com/33a7724bf9.js" crossorigin="anonymous"></script>
+                            <!-- diversity card -->
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <img src="assets/images/running.webp" class="card-img-top"
+                                        alt="A group of young children running together">
+                                    <div class="card-body">
+                                        <h2 class="card-title mt-2 mb-3">What is Diversity?</h2>
+                                        <p class="card-text"><strong>Diversity</strong> is when there are many different
+                                            kinds of
+                                            people, things,
+                                            or ideas all
+                                            together. Imagine you have a big box of crayons with lots of different
+                                            colors like red,
+                                            blue, green, and
+                                            yellow. Each color is
+                                            unique and special in its own way, and when you use all of them together,
+                                            you can create
+                                            a beautiful and
+                                            interesting picture.In the same way, people are different too.
+                                            <br>
+                                            <br>
+                                            Some have different skin colors, some speak different languages and some
+                                            have different
+                                            customs or
+                                            traditions. This diversity makes the world a more interesting and
+                                            fun place to live in, just like how all the different crayon colors make
+                                            your picture
+                                            special. So,
+                                            diversity is all about celebrating and appreciating all the unique things
+                                            that make each
+                                            person special.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
-<!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
-<script>
-    document
-        .querySelectorAll(".navbar-collapse .nav-link")
-        .forEach((link) => {
-            link.addEventListener("click", function (e) {
-                let section = document.querySelector(e.target.getAttribute("href"));
-                if (section) {
-                    e.preventDefault(); // Prevent default anchor click behavior
-                    let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-                    window.scroll({
-                        top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                        behavior: "smooth",
-                    });
+                            <!-- inclusion card -->
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <img src="assets/images/corridor.webp" class="card-img-top"
+                                        alt="An adult reads a story to a small group of children">
+                                    <div class="card-body">
+                                        <h2 class="card-title mt-2 mb-3">What is Inclusion?</h2>
+                                        <p class="card-text"><strong>Inclusion</strong> is when everyone feels welcome
+                                            and included,
+                                            no matter how
+                                            different they
+                                            are. Imagine you're playing a game with your friends, and you make sure that
+                                            every
+                                            single person gets
+                                            to join in and have fun. You don't leave anyone out, and you make sure
+                                            everyone feels
+                                            happy and part of
+                                            the group.<br>
+                                            <br>
+                                            In the same way, inclusion means making sure that everyone, no matter what
+                                            they look
+                                            like, where they
+                                            come from, or what they can do, feels like they belong. It's about being
+                                            kind,
+                                            respectful, and making
+                                            sure everyone has an equal chance to participate and enjoy things together.
+                                            So,
+                                            inclusion is all about
+                                            creating a friendly and fair environment where everyone feels valued and
+                                            included.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+
+                <!-- Footer -->
+                <!-- mt-auto added to push footer to the bottom of the page -->
+                <footer id="contact" class="bg-light text-center mt-auto">
+                    <div class="container section p-4">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 mb-4 text-lg-start">
+                                <h5 class="text-uppercase">Bright Futures</h5>
+                            </div>
+                            <div class="col-lg-4 col-md-12 mb-4">
+                                <h5 class="text-uppercase">Contact Us</h5>
+                                <p>
+                                    Address: 123 Bright Street, Future City, 12345<br>
+                                    Email: info@brightfutures.com<br>
+                                    Phone: +123 456 7890
+                                </p>
+                            </div>
+                            <div class="col-lg-4 col-md-12 mb-4 text-lg-end">
+                                <h5 class="text-uppercase ">Follow Us</h5>
+                                <a href="#" class="me-4 ms-lg-4 text-reset">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="me-4 text-reset">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="me-4 text-reset">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="text-reset">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+                <!-- Bootstrap JS -->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                    crossorigin="anonymous"></script>
+                <!-- Font Awesome -->
+                <script src="https://kit.fontawesome.com/33a7724bf9.js" crossorigin="anonymous"></script>
+
+                <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+                <script>
                     document
-                        .querySelector(".navbar-collapse")
-                        .classList.remove("show"); // Collapse navbar
-                }
-            });
-        });
-</script>
+                        .querySelectorAll(".navbar-collapse .nav-link")
+                        .forEach((link) => {
+                            link.addEventListener("click", function (e) {
+                                let section = document.querySelector(e.target.getAttribute("href"));
+                                if (section) {
+                                    e.preventDefault(); // Prevent default anchor click behavior
+                                    let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                                    window.scroll({
+                                        top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                                        behavior: "smooth",
+                                    });
+                                    document
+                                        .querySelector(".navbar-collapse")
+                                        .classList.remove("show"); // Collapse navbar
+                                }
+                            });
+                        });
+                </script>
 
 </html>

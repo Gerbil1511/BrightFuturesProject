@@ -17,6 +17,7 @@
 </head>
 
 <!-- flex classes on body set to work with mt-auto on footer, ensure footer always stays at the bottom of the page -->
+
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -60,10 +61,10 @@
 
 <main>
 
-    <div class="container text-center">
+    <div class="container">
         <div class="row">
-            <div class="col">
-                Column
+            <div class="container mt-4 mb-3">
+                <h1 class="display-1"><strong>Welcome to Bright Futures</strong></h1>
             </div>
             <div class="col">
                 Column
@@ -77,7 +78,10 @@
 <footer id="contact" class="bg-light text-center mt-auto">
     <div class="container section p-4">
         <div class="row">
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0 text-lg-start">
+            <div class="col-lg-4 col-md-12 mb-4 text-lg-start">
+                <h5 class="text-uppercase">Bright Futures</h5>  
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4">
                 <h5 class="text-uppercase">Contact Us</h5>
                 <p>
                     Address: 123 Bright Street, Future City, 12345<br>
@@ -85,7 +89,7 @@
                     Phone: +123 456 7890
                 </p>
             </div>
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0 text-lg-end">
+            <div class="col-lg-4 col-md-12 mb-4 text-lg-end">
                 <h5 class="text-uppercase ">Follow Us</h5>
                 <a href="#" class="me-4 ms-lg-4 text-reset">
                     <i class="fab fa-facebook-f"></i>
@@ -110,5 +114,27 @@
     crossorigin="anonymous"></script>
 <!-- Font Awesome -->
 <script src="https://kit.fontawesome.com/33a7724bf9.js" crossorigin="anonymous"></script>
+
+ <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+ <script>
+    document
+        .querySelectorAll(".navbar-collapse .nav-link")
+        .forEach((link) => {
+            link.addEventListener("click", function (e) {
+                let section = document.querySelector(e.target.getAttribute("href"));
+                if (section) {
+                    e.preventDefault(); // Prevent default anchor click behavior
+                    let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                    window.scroll({
+                        top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                        behavior: "smooth",
+                    });
+                    document
+                        .querySelector(".navbar-collapse")
+                        .classList.remove("show"); // Collapse navbar
+                }
+            });
+        });
+</script>
 
 </html>

@@ -40,8 +40,8 @@
                         <a class="nav-link " href="index.html#research">Research</a>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link  dropdown-toggle" href="index.html#resources" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link  dropdown-toggle" href="index.html#resources" id="navbarDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Resources
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -61,80 +61,68 @@
 
 <main>
     <section id="booking-header" class="col-sm-12 col-md-8 col-lg-6">
-    <div id= "cover-text">
-       <div class="row">
-            <div class="container mt-4 mb-3">
-                <h1 class="display-3"><strong>Book a talk with one of our Bright Future Ambassadors</strong></h1>
+        <div id="cover-text">
+            <div class="row">
+                <div class="container mt-4 mb-3">
+                    <h1 class="display-3"><strong>Book a talk with one of our Bright Future Ambassadors</strong></h1>
+                </div>
+
             </div>
-            <div class="col-5">
-            </div>
-        </div>
             <div class="">
-                <h1 class="display-5 mb-3"><strong>Or volunteer as an Ambassador with us</strong></h1>
+                <h1 class="display-6 mb-3"><strong>Or volunteer as an Ambassador with us</strong></h1>
             </div>
         </div>
-   
-    <div class="sr-only">A circle group of children with hands together at the center</div>
-</section>
 
-
+        <div class="sr-only">A circle group of children with hands together at the center</div>
+    </section>
 
     <section id="booking-form" class="container mt-3">
         <div class="row justify-content-center">
             <div class="col-12 col-md-8 text-center">
-                <h2>Booking inquiry</h2>
-                <p> Please complete all fields in the form with your details and select the appropriate option below.
-                </p>
+                <h3 class="my-3"> Please complete all fields in the form with your details and select the appropriate option below.
+                </h3>
                 <form action="success.html" method="GET">
                     <div class="row">
+                        <div class="col-12 my-3">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1" checked>
+                                <label class="form-check-label" for="flexRadioDefault1">I'm a Parent</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault2">
+                                <label class="form-check-label" for="flexRadioDefault2">I'm an Educator</label>
+                            </div>
+                        </div>
                         <div class="col-12 col-lg-6 mb-3">
-                            <label for="name" class="form-label">Name</label>
+                            <label for="name" class="form-label">Full Name</label>
                             <input class="form-control" id="name" name="name" type="text" required>
                         </div>
                         <div class="col-12 col-lg-6 mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input class="form-control" id="email" name="email" type="email" required>
+                            <label for="school" class="form-label">School/Organisation</label>
+                            <input class="form-control" id="school" name="school" type="text" required disabled>
                         </div>
                         <div class="col-12 col-lg-6 mb-3">
-                            <label for="phone" class="form-label">Phone number</label>
+                            <label for="phone" class="form-label">Phone Number</label>
                             <input class="form-control" id="phone" name="phone" type="number" required>
                         </div>
                         <div class="col-12 col-lg-6 mb-3">
-                            <label for="event-type" class="form-label">Event type</label>
-                            <select id="event-type" class="form-select" name="event-type" required>
-                                <option value="">Select</option>
-                                <option value="regular-play">Reserve a table</option>
-                                <option value="dnd">Dungeons & Dragons</option>
-                                <option value="retro-night">Retro Game Night</option>
-                                <option value="tournament">Tournament</option>
-                                <option value="kids-party">Kids party</option>
-                            </select>
+                            <label for="email" class="form-label">Email Address</label>
+                            <input class="form-control" id="email" name="email" type="email" required>
                         </div>
                         <div class="col-12 mb-3">
                             <label for="message" class="form-label">Message</label>
                             <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
                         </div>
-                    </div>
-
-                    <button type="submit" class="btn custom-button-outline mb-4">Submit</button>
+                        <button type="button" class="btn btn-success mb-4">Submit</button>
                 </form>
             </div>
         </div>
     </section>
 
-
 </main>
 
-
-
-
-
-
-
-
-
-
-    
 
 <!-- Footer -->
 <!-- mt-auto added to push footer to the bottom of the page -->
@@ -142,7 +130,7 @@
     <div class="container section p-4">
         <div class="row">
             <div class="col-lg-4 col-md-12 mb-4 text-lg-start">
-                <h5 class="text-uppercase">Bright Futures</h5>  
+                <h5 class="text-uppercase">Bright Futures</h5>
             </div>
             <div class="col-lg-4 col-md-12 mb-4">
                 <h5 class="text-uppercase">Contact Us</h5>
@@ -178,8 +166,8 @@
 <!-- Font Awesome -->
 <script src="https://kit.fontawesome.com/33a7724bf9.js" crossorigin="anonymous"></script>
 
- <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
- <script>
+<!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+<script>
     document
         .querySelectorAll(".navbar-collapse .nav-link")
         .forEach((link) => {
@@ -198,6 +186,29 @@
                 }
             });
         });
+</script>
+<!-- Javascript to ensure that the school/organisation radio button is disabled when the radio button "i'm a parent" is checked -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const parentRadio = document.getElementById('flexRadioDefault1');
+        const educatorRadio = document.getElementById('flexRadioDefault2');
+        const schoolInput = document.getElementById('school');
+
+        function toggleSchoolInput() {
+            if (parentRadio.checked) {
+                schoolInput.disabled = true;
+                schoolInput.value = ''; // Clear the input value
+            } else {
+                schoolInput.disabled = false;
+            }
+        }
+
+        parentRadio.addEventListener('change', toggleSchoolInput);
+        educatorRadio.addEventListener('change', toggleSchoolInput);
+
+        // Initial check
+        toggleSchoolInput();
+    });
 </script>
 
 </html>

@@ -22,3 +22,21 @@
     margin-bottom: 1.5rem;
 }
 
+#booking-header {
+    height: 600px;
+    width: 100%;
+    background: url("../images/storytime.webp") no-repeat center center/cover;
+    position: relative;
+    opacity: 0.75;
+}
+
+#booking-header #cover-text {
+    background-color: rgba(139, 241, 128, 0.7);
+    color: black;
+    position: absolute;
+    top: 50%;
+    /* left: 50%; */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}

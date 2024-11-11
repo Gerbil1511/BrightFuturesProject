@@ -25,20 +25,18 @@ Live project: <a href="place link here" target="_blank">Bright Futures</a>
         - [User Stories](#user-stories)
       - [Scope](#scope)
         - [Features](#features)
-            - [Navigation and Hero Section](#navigation-and-hero-section)
+            - [Navigation, Links and Hero Section](#navigation-links-and-hero-section)
             - [Bootstrap Grid/Cards](#bootstrap-grid-cards)
             - [Book a talk/Volunteer](#book-a-talk-volunteer)
-            - [Resources](#resources-section)
             - [Footer](#footer)
-            - [Links and Buttons](#links-and-buttons)
       - [Structure](#structure)
         - []()
       - [Skeleton](#skeleton)
         - [Wireframes](#wireframes)
       - [Surface](#surface)        
-        - [Colors](#colors)
+        - [Colours](#colours)
         - [Fonts](#fonts)
-        - [Imagery](#imagery)
+        - [Images](#images)
         - [Resnposive Design](#responsive-design) 
 * [Built With](#built-with)
   - [Technology and Languages](#technologies-and-languages)
@@ -62,7 +60,8 @@ Bright Futures is a fictional organisation dedicated to the providing parents an
 
 ## UX Design
 
-The following details are based upon the 5 planes of user experience (UX). The five planes of user experience (UX) are a framework for UX design that are stacked on top of each other, from abstract to concrete and credited to be developed by Jesse James Garrett, author of The Elements of User Experience.   
+The following details are based upon the 5 planes of user experience (UX). The five planes of user experience (UX) are a framework for UX design that are stacked on top of each other, from abstract to concrete and credited to be developed by Jesse James Garrett, author of The Elements of User Experience.  
+
 
 ## Strategy: The most abstract plane, where you balance business objectives with user needs. This is where you determine long-term and short-term goals, and what users will want from the product in the form of User Stories. 
 
@@ -98,27 +97,20 @@ User Stories:
 
 
 
-#### Navigation and Hero Section
+#### Navigation, Links and Hero Section
 
 
-![Navigation & Hero](/documentation/images/.webp)
 
 #### Bootstrap Cards
 
 
 
-![Cards](/documentation/images/.webp)
-
-#### Research Section
+#### Book a talk/Volunteer Section
 
 
-![Research Section](/documentation/images/.webp)
 
 #### Footer
 
-
-
-#### Links and Buttons
 
 
 
@@ -157,22 +149,16 @@ I designed the website using wireframes by utilising the Balsamiq software [Bals
 
 ## Surface: This is the most concrete plane. Design, colours, typography.
 
-## Colors
-
-
-
+## Colours
 compliance to standards,  [Colour Contrast Checker](https://colourcontrast.cc/) <br>
 Both the [WebAIM](https://webaim.org/resources/contrastchecker/) 
 
+
 ### Main Palette
 
+![Colour Contrast Checker Results](/documentation/images/color-contrast.gif)
 
 
-![Color Contrast Checker Results](/documentation/images/color-contrast.gif)
-
-
-<hr>
-<p align="right"><a href="#add link here">Back To Top</a></p>
 
 ## Fonts
 
@@ -180,16 +166,8 @@ Both the [WebAIM](https://webaim.org/resources/contrastchecker/)
  [Google Fonts](https://fonts.google.com) using a direct import code within the style.css file.
 
 
-<hr>
-<p align="right"><a href="#add link herer>Back To Top</a></p>
-
-
 ## Images
 
-
-
-<hr>
-<p align="right"><a href="#add link here">Back To Top</a></p>
 
 
 ### Responsive Design
@@ -206,21 +184,17 @@ During testing it was apparent that `display-6` was too large for the navbar bra
 ## Built With
 
 ### Technologies and Languages
-HTML 5, 
+HTML 5 
 CSS
 GIT
 GITHUB
 GITPOD
 
 
-
 ### Libraries and Frameworks
-
-
 Bootsrap
 Font Awesome
 Goolge Fonts
-
 
 
 ### Tools and Programs
@@ -268,17 +242,17 @@ Dev Tools in Chrome Browser.
 ## Credits
 
 ### Code
-
 LMS learning by [Code Institute](https://codeinstitute.net/ie/)<br>
 
 Other resources:
-
 - [Bootstrap Docs](https://getbootstrap.com/docs/5.3)
 
 
+### Content
+
 
 ### Media
-
+Youtube videos
 
 
 ### Acknowledgements

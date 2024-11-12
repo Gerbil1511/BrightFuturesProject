@@ -64,6 +64,33 @@ rgba(241, 139, 128, 0.7) - Light red
     width: 100%;
 }
 
+#booking-form form {
+    background-color: rgba(241, 222, 128, 0.7); /* Light yellow background */
+    padding: 20px; /* Add some padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 30px; /* Add space at the bottom */
+}
+
+#booking-form form input[type="text"],
+#booking-form form input[type="email"],
+#booking-form form input[type="tel"],
+#booking-form form input[type="radio"],
+#booking-form form select,
+#booking-form form textarea {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid #ccc; /* Border for better visibility */
+    padding: 10px; /* Padding for better usability */
+    border-radius: 5px; /* Rounded corners */
+    width: 100%; /* Full width */
+    margin-bottom: 15px; /* Space between inputs */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+#booking-form form input[type="radio"] {
+    width: auto; /* Reset width for radio buttons */
+    margin-right: 10px; /* Space between radio button and label */
+}
 
 /* logo image for the footer */
 .logo-footer {

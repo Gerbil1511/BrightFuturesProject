@@ -75,7 +75,7 @@ rgba(241, 139, 128, 0.7) - Light red
 
 /* resources */
 
-#activities, #videos {
+#activities, #printables, #videos {
     padding-top: 80px; /* Adjust this value based on your fixed header height */
     margin-top: -80px; /* Negative margin to offset the padding */
 }
@@ -207,7 +207,13 @@ rgba(241, 139, 128, 0.7) - Light red
     }
 }
 
-
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+    #resources, #books, #activities, #printables, #videos {
+        padding-top: 4rem; /* Adjust this value based on your fixed header height on mobile */
+        
+    }
+}
 
 /* Media query for medium devices and up */
 @media (min-width: 768px) {

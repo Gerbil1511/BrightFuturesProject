@@ -40,10 +40,38 @@ rgba(241, 139, 128, 0.7) - Light red
     width: 100%;
 }
 
+/* what is diversity and inclusion section */
 #what-is .card {
     margin-bottom: 1.5rem;
 }
 
+/* research section */
+
+#research {
+    /* background: linear-gradient(45deg, rgba(241, 222, 128, 0.7), rgba(128, 198, 241, 0.7), rgba(241, 139, 128, 0.7)); */
+    background-color: rgba(128, 198, 241, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    padding-top: 80px; /* Adjust this value based on your fixed header height */
+    padding-bottom: 80px;
+    margin-top: -80px; /* Negative margin to offset the padding */
+}
+
+#research h2 {
+    margin-bottom: 20px;
+}
+#research p {
+    margin-bottom: 15px;
+}
+#research a {
+    display: block;
+    margin-bottom: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+#research a:hover {
+    text-decoration: underline;
+}
 
 /* logo image for the footer */
 .logo-footer {

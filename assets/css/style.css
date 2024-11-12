@@ -7,7 +7,9 @@ rgba(241, 139, 128, 0.7) - Light red
 */
 
 
-/* logo.png image for the navbar */
+/* index page */
+
+/* logo image for the navbar */
 .logo {
     height: 40px; /* Adjust the height as needed */
     width: auto; /* Maintain aspect ratio */
@@ -43,6 +45,19 @@ rgba(241, 139, 128, 0.7) - Light red
 }
 
 
+/* logo image for the footer */
+.logo-footer {
+    height: 40px; /* Adjust the height as needed */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Space between logo and text */
+    position: relative; /* Enable relative positioning */
+    margin-top: -15px; /* Move the logo upwards */
+    vertical-align: middle; /* Align vertically with text */
+    margin-bottom: 10px;
+}
+
+
+/* booking page */
 
 #booking-header {
     height: 600px;
@@ -92,19 +107,28 @@ rgba(241, 139, 128, 0.7) - Light red
     margin-right: 10px; /* Space between radio button and label */
 }
 
-/* logo image for the footer */
-.logo-footer {
-    height: 40px; /* Adjust the height as needed */
-    width: auto; /* Maintain aspect ratio */
-    margin-right: 5px; /* Space between logo and text */
-    position: relative; /* Enable relative positioning */
-    margin-top: -15px; /* Move the logo upwards */
-    vertical-align: middle; /* Align vertically with text */
-    margin-bottom: 10px;
+/* success page */
+
+#success-header {
+    height: 600px;
+    width: 100%;
+    background: url("../images/cultures.webp") no-repeat center center/cover;
+    position: relative;
+    opacity: 0.9;
 }
 
-
-/*
+#success-text {
+    background: linear-gradient(45deg, rgba(241, 222, 128, 0.7), rgba(128, 198, 241, 0.7), rgba(241, 139, 128, 0.7));
+    padding: 20px; /* Add some padding if needed */
+    border-radius: 10px; /* Optional: rounded corners */
+    color: #2b2b2b; /* Text color for better contrast */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
 
 /* Media query for smaller devices to move the #booking-header image to the left slightly for more detail */
 @media (max-width: 576px) {

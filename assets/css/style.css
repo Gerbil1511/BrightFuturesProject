@@ -1,3 +1,12 @@
+/* global colours 
+
+rgba(241, 222, 128, 0.7) - Light yellow
+rgba(153, 241, 143, 0.7) - Light green
+rgba(128, 198, 241, 0.7) - Light blue
+rgba(241, 139, 128, 0.7) - Light red
+*/
+
+
 /* logo.png image for the navbar */
 .logo {
     height: 40px; /* Adjust the height as needed */
@@ -11,13 +20,13 @@
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/hands-together.webp") no-repeat center center/cover;
+    background: url("../images/inclusive-play.webp") no-repeat center center/cover;
     position: relative;
     opacity: 0.85;
 }
 
 #cover-text {
-    background-color: rgba(241, 222, 128, 0.7);
+    background-color: rgba(128, 198, 241, 0.7);
     color: black;
     position: absolute;
     top: 50%;
@@ -36,7 +45,7 @@
     width: 100%;
     background: url("../images/storytime.webp") no-repeat center center/cover;
     position: relative;
-    opacity: 0.75;
+    /* opacity: 0.75; */
 }
 
 #booking-header #cover-text {
@@ -62,7 +71,7 @@
 }
 
 
-
+/*
 
 /* Media query for smaller devices to move the #booking-header image to the left slightly for more detail */
 @media (max-width: 576px) {
@@ -71,9 +80,18 @@
     }
 }
 
-/* Media query for medium devices and up to reduce success page image size */
+
+
+/* Media query for medium devices and up */
 @media (min-width: 768px) {
-    .success.card-img-top {
+   
+    /* move the #booking-header image down slightly for more detail */
+    #booking-header {
+        background-position: center top 5px; /* Adjust the value as needed */
+    }
+
+     /* reduce success page image size */
+     .success.card-img-top {
         width: 80%; /* Adjust the width as needed */
         margin: 0 auto; /* Center the image */
     }
@@ -81,11 +99,10 @@
 
 /* Media query for large an up devices to move the #booking-header image down slightly for more detail */
 @media (min-width: 1200px) {
-    #hero {
-        background-position: center top -10px; /* Adjust the value as needed */
-    }
 
+
+    /* move the #booking-header image down slightly for more detail */
     #booking-header {
         background-position: center top 5px; /* Adjust the value as needed */
     }
-} 
+}

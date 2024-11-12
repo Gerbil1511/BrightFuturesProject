@@ -82,8 +82,7 @@ rgba(241, 139, 128, 0.7) - Light red
 #booking-form form {
     background-color: rgba(241, 222, 128, 0.7); /* Light yellow background */
     padding: 20px; /* Add some padding */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
     margin-bottom: 30px; /* Add space at the bottom */
 }
 
@@ -96,7 +95,7 @@ rgba(241, 139, 128, 0.7) - Light red
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     border: 1px solid #ccc; /* Border for better visibility */
     padding: 10px; /* Padding for better usability */
-    border-radius: 5px; /* Rounded corners */
+    border-width: 2px; /* Thick border */
     width: 100%; /* Full width */
     margin-bottom: 15px; /* Space between inputs */
     box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */

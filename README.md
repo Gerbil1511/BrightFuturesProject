@@ -334,7 +334,7 @@ The following were utilised throughout the content:
 
 - Dillon (our facilitator) for providing motivation and support during our course meetings and on Slack.
 
-- My family for providing neverending support to keep my confidence going and their critical feedback on absolutely nothing as they continously preaised mt progress over the two days!
+- My family for providing neverending support to keep my confidence going and their critical feedback on absolutely nothing as they continously praised my progress over the working days!
 
 <hr>
 <p align="right"><a href="#bright-futures">Back To Top</a></p>

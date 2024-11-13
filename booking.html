@@ -38,103 +38,98 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
-
+                    </li> <!-- Closing the first <li> tag -->
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="booking.html">Book a talk or Volunteer with
-                            us</a>
-
+                        <a class="nav-link active" aria-current="page" href="booking.html">Book a talk or Volunteer with us</a>
+                    </li> <!-- Closing the second <li> tag -->
                     <li class="nav-item">
                         <a class="nav-link " href="index.html#research">Research</a>
-
+                    </li> <!-- Closing the third <li> tag -->
                     <li class="nav-item dropdown">
                         <a class="nav-link  dropdown-toggle" href="index.html#resources" id="navbarDropdown"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Resources
                         </a>
-                        <li class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="index.html#resources">Books</a>
-                            <a class="dropdown-item" href="index.html#activities">Activities</a>
-                            <a class="dropdown-item" href="index.html#videos">YouTube videos</a>
-                        </li>
-
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="index.html#resources">Books</a></li>
+                            <li><a class="dropdown-item" href="index.html#activities">Activities</a></li>
+                            <li><a class="dropdown-item" href="index.html#videos">YouTube videos</a></li>
+                        </ul>
+                    </li> <!-- Closing the fourth <li> tag -->
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
-
+                    </li> <!-- Closing the fifth <li> tag -->
                 </ul>
             </div>
         </div>
     </nav>
-</body>
 
-<main>
-    <section id="booking-header" class="col-sm-12 col-md-8 col-lg-6">
-        <div id="cover-text">
-            <div class="row">
-                <div class="container mt-3 mb-3">
-                    <h1 class="display-3"><strong>Book a talk with one of our Bright Futures Ambassadors</strong></h1>
-                </div>
-
-            </div>
-            <div class="">
-                <h1 class="display-6 mb-3"><strong>Or volunteer as an Ambassador with us</strong></h1>
-            </div>
-        </div>
-
-        <div class="sr-only">A circle group of children are being read a story by an adult</div>
-    </section>
-
-    <section id="booking-form" class="container mt-3">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-8 text-center">
-                <p class="h6 my-3"><strong>Please complete ALL fields in the form with your details and select the appropriate
-                    option below.</strong>
-                </p>
-                <form id="bookingForm" action="success.html" method="GET">
-                    <div class="row">
-                        <div class="col-12 my-3">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault1" checked>
-                                <label class="form-check-label" for="flexRadioDefault1">I'm a Parent</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault2">
-                                <label class="form-check-label" for="flexRadioDefault2">I'm an Educator</label>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-6 mb-3">
-                            <label for="name" class="form-label">Full Name</label>
-                            <input class="form-control" id="name" name="name" type="text" required>
-                        </div>
-                        <div class="col-12 col-lg-6 mb-3">
-                            <label for="school" class="form-label">School/Organisation</label>
-                            <input class="form-control" id="school" name="school" type="text" required disabled>
-                        </div>
-                        <div class="col-12 col-lg-6 mb-3">
-                            <label for="phone" class="form-label">Phone Number</label>
-                            <input class="form-control" id="phone" name="phone" type="number" required>
-                        </div>
-                        <div class="col-12 col-lg-6 mb-3">
-                            <label for="email" class="form-label">Email Address</label>
-                            <input class="form-control" id="email" name="email" type="email" required>
-                        </div>
-                        <div class="col-12 mb-5">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
-                        </div>
-                        <!-- onclick calls a JS function on the form to validate it -->
-                        <button type="submit" class="btn btn-success mb-5">
-                            Submit
-                        </button>
-                        
+    <main>
+        <section id="booking-header" class="col-sm-12 col-md-8 col-lg-6">
+            <div id="cover-text">
+                <div class="row">
+                    <div class="container mt-3 mb-3">
+                        <h1 class="display-3"><strong>Book a talk with one of our Bright Futures Ambassadors</strong></h1>
                     </div>
-                </form>
+                </div>
+                <div class="">
+                    <h1 class="display-6 mb-3"><strong>Or volunteer as an Ambassador with us</strong></h1>
+                </div>
             </div>
-        </div>
-    </section>
+            <div class="sr-only">A circle group of children are being read a story by an adult</div>
+        </section>
 
-</main>
+        <section id="booking-form" class="container mt-3">
+            <h2 class="text-center">Booking Form</h2>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 text-center">
+                    <p class="h6 my-3"><strong>Please complete ALL fields in the form with your details and select the appropriate
+                        option below.</strong>
+                    </p>
+                    <form id="bookingForm" action="success.html" method="GET">
+                        <div class="row">
+                            <div class="col-12 my-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1" checked>
+                                    <label class="form-check-label" for="flexRadioDefault1">I'm a Parent</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault2">
+                                    <label class="form-check-label" for="flexRadioDefault2">I'm an Educator</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="school" class="form-label">School/Organisation</label>
+                                <input class="form-control" id="school" name="school" type="text" required disabled>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 mb-5">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                            </div>
+                            <!-- onclick calls a JS function on the form to validate it -->
+                            <button type="submit" class="btn btn-success mb-5">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
 
 
 <!-- Footer -->

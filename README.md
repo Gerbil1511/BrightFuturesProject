@@ -26,7 +26,7 @@ Live project: <a href="https://gerbil1511.github.io/BrightFuturesProject/index.h
       - [Scope](#scope)
         - [Features](#features)
             - [Navigation, Links and Hero Section](#navigation-links-and-hero-section)
-            - [Bootstrap Grid/Cards](#bootstrap-grid-cards)
+            - [Bootstrap Cards](#bootstrap-grid-cards)
             - [Book a talk/Volunteer](#book-a-talk-volunteer)
             - [Footer](#footer)
       - [Structure](#structure)
@@ -96,22 +96,22 @@ User Stories:
 
 #### Navigation, Links and Hero Section
 
-This site needed the navigation to be easy and clear therefore Bootstrap navigation bars was the perfect choice for this.
+All users require the navigation to be clear and simple to follow and, therefore Bootstrap navigation bars was the perfect choice for this. The navigation bar is fixed at all times on every section and every page. Links are all connected and open in a new page. Each page has a striking hero section that to appeal to users.
 
 
 #### Bootstrap Cards
 
-Utilised Bootsrap cards in many areas of the information sections and resources as it ensured that the information was displayed clearly and neatly making it appealing to the user.
+I utilised Bootsrap cards throughout the information sections and resources, as it ensured that the information was displayed clearly and cleanly making it easy to navigate and appealing to the user.
 
 
 #### Book a talk/Volunteer Section
 
-Opted to create a new fresh page as opposed to a modal to ensure that validation of input fields was possible on submit button. It didn't seem to work correctly in teh modal format.
+I opted to create a new fresh page for the form as opposed to a modal to ensure that validation of input fields was possible on submit button. It didn't seem to work correctly in the modal format and accepted blank fields. The form is also responsive across all devices.
 
 
 #### Footer
 
-Utilised the Bootstrap 5.3 footer
+Utilised the Bootstrap 5.3 footer and added the logo as a link to ensure that users could navigate to the top of the page from here. Ensured that social links were also available. the responisvity of the footer works correctly across all devices.
 
 
 <hr>
@@ -136,12 +136,12 @@ Going forward I would add a search function, as that would also benfit the user 
 I designed the website using wireframes by utilising the Balsamiq software [Balsamiq](https://balsamiq.com/) as part of the User Design Skeleton process. U
 
 **Mobile Wireframe**
-![Mobile Wireframe](/documentation/images/mobile-wireframe.webp)
+![Mobile Wireframe](/documentation/images/mobile-wireframe.png)
 
 
 
 **Desktop Wireframe**
-![Desktop Wireframe](/documentation/images/desktop-wireframe.webp)
+![Desktop Wireframe](/documentation/images/desktop-wireframe.png)
 
 
 
@@ -257,16 +257,16 @@ Throughout the project, it was important to ensure that errors were debugged and
 - Dev Tools in Chrome Browser
 
 - WCAG Contrast Checker Chrome Extension (https://chromewebstore.google.com/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf)
-(/documentation/images/contrast-check.webp)
+(/documentation/images/contrast-check.png)
 
 - HTML Validation (https://validator.w3.org/)
-(/documentation/images/nuhtml-check.webp)
+(/documentation/images/nuhtml-check.png)
 
 - CSS Validation (https://jigsaw.w3.org/css-validator/)
-(/documentation/images/css-check.webp)
+(/documentation/images/css-check.png)
 
 - Lighthouse (https://developer.chrome.com/docs/lighthouse/overview)
-(/documentation/images/lighthouse-check.webp)
+(/documentation/images/lighthouse-check.png)
 
 
 <hr>

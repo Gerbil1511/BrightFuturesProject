@@ -94,26 +94,24 @@ User Stories:
 ## Features
 
 
-
-### General Features
-
-
-
 #### Navigation, Links and Hero Section
 
+This site needed the navigation to be easy and clear therefore Bootstrap navigation bars was the perfect choice for this.
 
 
 #### Bootstrap Cards
 
+Utilised Bootsrap cards in many areas of the information sections and resources as it ensured that the information was displayed clearly and neatly making it appealing to the user.
 
 
 #### Book a talk/Volunteer Section
 
+Opted to create a new fresh page as opposed to a modal to ensure that validation of input fields was possible on submit button. It didn't seem to work correctly in teh modal format.
 
 
 #### Footer
 
-
+Utilised the Bootstrap 5.3 footer
 
 
 <hr>
@@ -122,7 +120,10 @@ User Stories:
 
 ## Structure: This is where you arrange the site's functions. 
 
-## features go here.........
+This website has a clear and intuitive navigation menu that makes it easy for users to find what they need via a navigation bar with links to "Home," "Research," "Resources," "Contact," and "Book a talk/Volunteer."
+The content is organized in a logical and accessible manner, with clear headings and dropdown sections with "Resources" categorized by type (book recommendations, activities, videos).
+
+Going forward I would add a search function, as that would also benfit the user to quickly find specific resources or information.
 
 <hr>
 <p align="right"><a href="#bright-futures">Back To Top</a></p>
@@ -135,13 +136,12 @@ User Stories:
 I designed the website using wireframes by utilising the Balsamiq software [Balsamiq](https://balsamiq.com/) as part of the User Design Skeleton process. U
 
 **Mobile Wireframe**
-![Mobile Wireframe](/documentation/images/.webp)
+![Mobile Wireframe](/documentation/images/mobile-wireframe.webp)
 
-**Tablet Wireframe**
-![Tablet Wireframe](/documentation/images/.webp)
+
 
 **Desktop Wireframe**
-![Desktop Wireframe](/documentation/images/.webp)
+![Desktop Wireframe](/documentation/images/desktop-wireframe.webp)
 
 
 
@@ -151,62 +151,87 @@ I designed the website using wireframes by utilising the Balsamiq software [Bals
 
 ## Surface: This is the most concrete plane. Design, colours, typography.
 
-## Colours
-compliance to standards,  [Colour Contrast Checker](https://colourcontrast.cc/) <br>
-Both the [WebAIM](https://webaim.org/resources/contrastchecker/) 
 
+### Main Colour Palette
 
-### Main Palette
+A selection of colours reflected the colourful nature f teh imagery throughout the site: 
 
-![Colour Contrast Checker Results](/documentation/images/color-contrast.gif)
+rgba(241, 222, 128, 0.7) - Light yellow
+rgba(153, 241, 143, 0.7) - Light green
+rgba(128, 198, 241, 0.7) - Light blue
+rgba(241, 139, 128, 0.7) - Light red
 
 
 
 ## Fonts
 
+ I ustilised the original fonts for this website to ensure accessibility was maintained at all times. I tested with a variety of fonts however none were as readable as the default fonts.
 
- [Google Fonts](https://fonts.google.com) using a direct import code within the style.css file.
 
 
 ## Images
+
+It was important that the images reflect the  brand especially as the fictional brand is called Bright Futures, it was essential that imagery reflected positivity, empathy, inclusion and diversity.
+
+As the site is aimed at parents and teachers of young children, the imagery needed to reflect the approriate age range, and symbolise the fact that Bright Futures is an educational resource.
 
 
 
 ### Responsive Design
 
-Used [Bootstrap Framework](https://getbootstrap.com/docs/5.3/getting-started/introduction/) rather than needing media queries.
-used dec tools to check
+Using [Bootstrap Framework](https://getbootstrap.com/docs/5.3/getting-started/introduction/) alongside CSS media queries meant that I could achievefor full responsivity across devices. However, this took some time to get the positions of elements just right
 
-During testing it was apparent that `display-6` was too large for the navbar brand text so this was removed to increase responsivity.
+Chrome Dev Tools was used frequently as were mobile and tablet devices, at each push stage of teh code.
+
+During testing it was apparent that some images were too skewed in the viewport so utilised CSS to make the responsivity of the images more appealing.
 
 <hr>
 <p align="right"><a href="#bright-futures">Back To Top</a></p>
 
 
+
 ## Built With
 
 ### Technologies and Languages
-HTML 5 
-CSS
-GIT
-GITHUB
-GITPOD
+
+- HTML 5 
+
+- CSS
+
+- GIT
+
+- GITHUB
+
+- GITPOD
+
+- VS CODE
 
 
 ### Libraries and Frameworks
-Bootsrap
-Font Awesome
-Goolge Fonts
+
+- Bootsrap (https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+
+- Font Awesome (https://fontawesome.com/)
+
 
 
 ### Tools and Programs
-Balsamiq
-Procreate 
-Squoosh
-The Noun Project
-Perplexity.ai
-Microsoft Copilot
-ChatGPT
+
+- Balsamiq (https://balsamiq.com/)
+
+- Procreate App (https://procreate.com/)
+
+- Squoosh (https://squoosh.app/)
+
+- Flaticon (https://www.flaticon.com/)
+
+- The Noun Project (https://thenounproject.com)
+
+- Perplexity AI (https://www.perplexity.ai/)
+
+- Microsoft Copilot (https://copilot.microsoft.com/)
+
+- ChatGPT (https://openai.com/)
 
 
 
@@ -217,7 +242,7 @@ ChatGPT
 ## Deployment
 
 
-Step by step how to go through deployment
+This [GitHub](https://github.com/) project was created using the [Code Institute Template](https://github.com/Code-Institute-Org/ci-full-template) ensuring all necessary dependencies were included when opening within the designated workspace on the [Gitopod IDE](https://www.gitpod.io/).
 
 
 
@@ -227,17 +252,21 @@ Step by step how to go through deployment
 
 ## Testing
 
-Throughout the project, it was important to ensure that the website would pass validation, by continously utilising the following tools
+Throughout the project, it was important to ensure that errors were debugged and validation would be passed by continously utilising the following tools:
 
-Dev Tools in Chrome Browser<br>
+- Dev Tools in Chrome Browser
 
-[WCAG Contrast Checker Chrome Extension] (https://chromewebstore.google.com/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf)<br>
+- WCAG Contrast Checker Chrome Extension (https://chromewebstore.google.com/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf)
+(/documentation/images/contrast-check.webp)
 
-[HTML Validation](https://validator.w3.org/)<br>
+- HTML Validation (https://validator.w3.org/)
+(/documentation/images/nuhtml-check.webp)
 
-[CSS Validation](https://jigsaw.w3.org/css-validator/)<br>
+- CSS Validation (https://jigsaw.w3.org/css-validator/)
+(/documentation/images/css-check.webp)
 
-[Lighthouse](https://developer.chrome.com/docs/lighthouse/overview)<br>
+- Lighthouse (https://developer.chrome.com/docs/lighthouse/overview)
+(/documentation/images/lighthouse-check.webp)
 
 
 <hr>
@@ -246,30 +275,63 @@ Dev Tools in Chrome Browser<br>
 ## Credits
 
 ### Code
-LMS learning by [Code Institute](https://codeinstitute.net/ie/)<br>
+
+Code learned via the LMS learning system at [Code Institute](https://codeinstitute.net/ie/) 
 
 Other resources:
-- [Bootstrap Docs](https://getbootstrap.com/docs/5.3)
+- Bootstrap Docs (https://getbootstrap.com/docs/5.3)
 
+- Mozilla (https://developer.mozilla.org/en-US/docs/Web)
+
+- W3Shools (https://www.w3schools.com/)
+
+- FreeCodeCamp (https://www.freecodecamp.org/)
 
 
 ### Content
 
-- Whole Child Counselling - (https://www.wholechildcounseling.com/post/how-to-talk-with-kids-about-diversity-and-inclusion)<br>
+My search for content inspiration came from the Google search "Diversity and Inclusion for young children" and notes were taken from the following websites:
 
-- NSPCC - (https://www.nspcc.org.uk/about-us/equality-diversity-and-inclusion/)<br>
+- Whole Child Counselling - (https://www.wholechildcounseling.com/post/how-to-talk-with-kids-about-diversity-and-inclusion) 
 
-- UK Mums - (https://ukmums.tv/column/teaching-kids-about-inclusivity-and-acceptance/)<br>
+- NSPCC - (https://www.nspcc.org.uk/about-us/equality-diversity-and-inclusion/) 
+
+- UK Mums - (https://ukmums.tv/column/teaching-kids-about-inclusivity-and-acceptance/)
+
+- EYR - (https://blog.earlyyearsresources.co.uk/2023/08/how-to-promote-equality-and-diversity-in-early-years-settings)
+
+- Parentkind - (https://www.parentkind.org.uk/search?q=diversity)
+
+- Just Like Us -(https://www.justlikeus.org/research/)
+
+
+The following AI tools were utilised throughout the website where text was directly used for the content:
+
+- Perplexity AI (https://www.perplexity.ai/)
+
+- Microsoft Copilot (https://copilot.microsoft.com/)
+
+- ChatGPT (https://openai.com/)
 
 
 ### Media
-- Bright Futures Logo: Based upon the icon designed by Kamin Ginkaew at [The Noun Project] (https://thenounproject.com/creator/ginkaew/)
 
+The following were utilised throughout the content:
+
+- Bright Futures Logo: Based upon the icon designed by Kamin Ginkaew at The Noun Project (https://thenounproject.com/creator/ginkaew/)
+
+- Posters designed by Coconut Counselor Teachers Pay Teachers (https://www.teacherspayteachers.com/store/coconut-counselor)
+
+- Games by Leonard Cheshire (https://www.leonardcheshire.org/sites/default/files/2021-11/Inclusive-games.pdf)
+
+- Google Image Search for images under the search "Diversity and inclusion children of all cultures and abilities playing together", and diversity and inclusion in the classroom for young children".
 
 ### Acknowledgements
 
 - Dawn, Amanda, Joanna, Khalisah, Maja, Maebh and Zee (and many other fellow C.I. Bottcamp peers) for consistently keeping me motivated and encouraged with their caring messages and their fantastic humour!
+
 - Dillon (our facilitator) for providing motivation and support during our course meetings and on Slack.
+
 - My family for providing neverending support to keep my confidence going and their critical feedback on absolutely nothing as they continously preaised mt progress over the two days!
 
 <hr>

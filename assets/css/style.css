@@ -28,6 +28,7 @@ rgba(241, 139, 128, 0.7) - Light red
 }
 
 #cover-text {
+    font-family: "Inclusive Sans", sans-serif;
     background: linear-gradient(45deg, rgba(241, 222, 128, 0.7), rgba(128, 198, 241, 0.7), rgba(241, 139, 128, 0.7));
     padding: 20px; /* Add some padding if needed */
     border-radius: 10px; /* Optional: rounded corners */
@@ -38,6 +39,7 @@ rgba(241, 139, 128, 0.7) - Light red
     transform: translate(-50%, -50%);
     text-align: center;
     width: 100%;
+
 }
 
 .mission {

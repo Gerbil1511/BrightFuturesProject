@@ -1,6 +1,6 @@
 # Bright Futures
 
-![Bright Futures - Project Banner](/documentation/images/home-page-screenshot)
+![Bright Futures - Project Banner](/documentation/images/BF-Banner.webp)
 
 
 <p align="center">
@@ -11,7 +11,7 @@
 
 For my first individual formative HTML, CSS & Bootstrap assignment for the Code Institute AI Augmented FullStack Bootcamp, I created a project based upon the goals and features proposed in Project 1: "Diversity & Inclusion".
 
-Live project: <a href="place link here" target="_blank">Bright Futures</a>
+Live project: <a href="https://gerbil1511.github.io/BrightFuturesProject/index.html" target="_blank">Bright Futures</a>
 
 <h2 align="center" id="TOC">Table of Contents</h2>
 
@@ -51,7 +51,7 @@ Live project: <a href="place link here" target="_blank">Bright Futures</a>
   - [Acknowledgements](#acknowledgements)
 
 
-<p align="right"><a href="#provide link here">Back To Top</a></p>
+<p align="right"><a href="#bright-futures">Back To Top</a></p>
 
 ## Project Outline
 
@@ -87,11 +87,13 @@ User Stories:
 
 
 <hr>
-<p align="right"><a href="#add link here">Back To Top</a></p>
+<p align="right"><a href="#bright-futures">Back To Top</a></p>
 
 ## Scope: You transform strategy into requirements by defining the product or service's characteristics. This is where you determine what features will be integral to the product.
 
 ## Features
+
+
 
 ### General Features
 
@@ -115,7 +117,7 @@ User Stories:
 
 
 <hr>
-<p align="right"><a href="#add link here">Back To Top</a></p>
+<p align="right"><a href="#bright-futures">Back To Top</a></p>
 
 
 ## Structure: This is where you arrange the site's functions. 
@@ -123,7 +125,7 @@ User Stories:
 ## features go here.........
 
 <hr>
-<p align="right"><a href="#add link here">Back To Top</a></p>
+<p align="right"><a href="#bright-futures">Back To Top</a></p>
 
 
 ## Skeleton: This is where you design the placement of buttons, tabs, photos, and text blocks
@@ -144,7 +146,7 @@ I designed the website using wireframes by utilising the Balsamiq software [Bals
 
 
 <hr>
-<p align="right"><a href="#add link here">Back To Top</a></p>
+<p align="right"><a href="#bright-futures">Back To Top</a></p>
 
 
 ## Surface: This is the most concrete plane. Design, colours, typography.
@@ -178,7 +180,7 @@ used dec tools to check
 During testing it was apparent that `display-6` was too large for the navbar brand text so this was removed to increase responsivity.
 
 <hr>
-<p align="right"><a href="#add link here">Back To Top</a></p>
+<p align="right"><a href="#bright-futures">Back To Top</a></p>
 
 
 ## Built With
@@ -209,7 +211,7 @@ ChatGPT
 
 
 <hr>
-<p align="right"><a href="#add link here">Back To Top</a></p>
+<p align="right"><a href="#bright-futures">Back To Top</a></p>
 
 
 ## Deployment
@@ -220,14 +222,16 @@ Step by step how to go through deployment
 
 
 <hr>
-<p align="right"><a href="#aadd link here">Back To Top</a></p>
+<p align="right"><a href="#bright-futures">Back To Top</a></p>
 
 
 ## Testing
 
-Continuous testing throughout project
+Throughout the project, it was important to ensure that the website would pass validation, by continously utilising the following tools
 
-Dev Tools in Chrome Browser.
+Dev Tools in Chrome Browser<br>
+
+[WCAG Contrast Checker Chrome Extension] (https://chromewebstore.google.com/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf)<br>
 
 [HTML Validation](https://validator.w3.org/)<br>
 
@@ -237,7 +241,7 @@ Dev Tools in Chrome Browser.
 
 
 <hr>
-<p align="right"><a href="#add link here">Back To Top</a></p>
+<p align="right"><a href="#bright-futures">Back To Top</a></p>
 
 ## Credits
 
@@ -248,18 +252,25 @@ Other resources:
 - [Bootstrap Docs](https://getbootstrap.com/docs/5.3)
 
 
+
 ### Content
+
+- Whole Child Counselling - (https://www.wholechildcounseling.com/post/how-to-talk-with-kids-about-diversity-and-inclusion)<br>
+
+- NSPCC - (https://www.nspcc.org.uk/about-us/equality-diversity-and-inclusion/)<br>
+
+- UK Mums - (https://ukmums.tv/column/teaching-kids-about-inclusivity-and-acceptance/)<br>
 
 
 ### Media
-Youtube videos
+- Bright Futures Logo: Based upon the icon designed by Kamin Ginkaew at [The Noun Project] (https://thenounproject.com/creator/ginkaew/)
 
 
 ### Acknowledgements
 
-- Dawn, Amanda, Joanna, Maja, Maebh (fellow C.I. Bottcamp peers) for providing feedback on ... in particular...
-- Dillon (our facilitator) for providing feedback on.... in particular.....
-- My family for providing general support to keep my confidence going and their feedback on ... in particularr...
+- Dawn, Amanda, Joanna, Khalisah, Maja, Maebh and Zee (and many other fellow C.I. Bottcamp peers) for consistently keeping me motivated and encouraged with their caring messages and their fantastic humour!
+- Dillon (our facilitator) for providing motivation and support during our course meetings and on Slack.
+- My family for providing neverending support to keep my confidence going and their critical feedback on absolutely nothing as they continously preaised mt progress over the two days!
 
 <hr>
-<p align="right"><a href="#add link here">Back To Top</a></p>
+<p align="right"><a href="#bright-futures">Back To Top</a></p>

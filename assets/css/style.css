@@ -40,6 +40,12 @@ rgba(241, 139, 128, 0.7) - Light red
     width: 100%;
 }
 
+.mission {
+    background: linear-gradient(45deg,rgba(128, 198, 241, 0.7), rgba(241, 222, 128, 0.7),rgba(241, 139, 128, 0.7)) rgba(128, 198, 241, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+}
+
 /* what is diversity and inclusion section */
 #what-is .card-img-top {
     max-width: 100%;
@@ -53,7 +59,7 @@ rgba(241, 139, 128, 0.7) - Light red
 /* research section */
 
 #research {
-    background: linear-gradient(45deg, rgba(128, 198, 241, 0.7), rgba(241, 139, 128, 0.7),rgba(241, 222, 128, 0.7));
+    background: linear-gradient(45deg, rgba(241, 139, 128, 0.7),rgba(128, 198, 241, 0.7),rgba(241, 222, 128, 0.7));
     /* background-color: rgba(128, 198, 241, 0.7); */
     padding: 20px;
     border-radius: 8px;

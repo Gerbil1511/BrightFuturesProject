@@ -86,6 +86,8 @@ User Stories:
 9: As a PROSPECTIVE VOLUNTEER/CUSTOMER, I want to read testimonials and reviews from other customers/volunteers, so I can gauge the experiences of others and feel more confident about booking a talk or becoming a volunteer.
 
 
+![Bright Futres Project Board](/documentation/images/project-stories.png)
+
 <hr>
 <p align="right"><a href="#bright-futures">Back To Top</a></p>
 
@@ -133,12 +135,10 @@ Going forward I would add a search function, as that would also benfit the user 
 
 ### Wireframes
 
-I designed the website using wireframes by utilising the Balsamiq software [Balsamiq](https://balsamiq.com/) as part of the User Design Skeleton process. U
+I designed the website using wireframes by utilising the Balsamiq software [Balsamiq](https://balsamiq.com/) as part of the User Design Skeleton process. I initially designed with mobile first-in mind which led to the desktop design. The design for small tablets reflects the mobile design and large tablets reflect the desktop design. 
 
 **Mobile Wireframe**
 ![Mobile Wireframe](/documentation/images/mobile-wireframe.png)
-
-
 
 **Desktop Wireframe**
 ![Desktop Wireframe](/documentation/images/desktop-wireframe.png)
@@ -156,12 +156,12 @@ I designed the website using wireframes by utilising the Balsamiq software [Bals
 
 A selection of colours reflected the colourful nature f teh imagery throughout the site: 
 
-rgba(241, 222, 128, 0.7) - Light yellow
-rgba(153, 241, 143, 0.7) - Light green
-rgba(128, 198, 241, 0.7) - Light blue
-rgba(241, 139, 128, 0.7) - Light red
+- rgba(241, 222, 128, 0.7) Light yellow
+- rgba(153, 241, 143, 0.7)  Light green
+- rgba(128, 198, 241, 0.7)  Light blue
+- rgba(241, 139, 128, 0.7)  Light red
 
-
+Also some Bootstrap colours were also used as borders around cards.
 
 ## Fonts
 
@@ -256,17 +256,19 @@ Throughout the project, it was important to ensure that errors were debugged and
 
 - Dev Tools in Chrome Browser
 
-- WCAG Contrast Checker Chrome Extension (https://chromewebstore.google.com/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf)
-(/documentation/images/contrast-check.png)
+![WCAG Contrast Checker Chrome Extension](/documentation/images/contrast-check.png)
+(https://chromewebstore.google.com/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf)
 
-- HTML Validation (https://validator.w3.org/)
-(/documentation/images/nuhtml-check.png)
+![HTML Validation](/documentation/images/nuhtml-check.png)
+(https://validator.w3.org/)
 
-- CSS Validation (https://jigsaw.w3.org/css-validator/)
-(/documentation/images/css-check.png)
+![CSS Validation](/documentation/images/css-check.png)
+(https://jigsaw.w3.org/css-validator/)
 
-- Lighthouse (https://developer.chrome.com/docs/lighthouse/overview)
-(/documentation/images/lighthouse-check.png)
+
+![Lighthouse Validation](/documentation/images/lighthouse-check.png)
+(https://developer.chrome.com/docs/lighthouse/overview)
+
 
 
 <hr>

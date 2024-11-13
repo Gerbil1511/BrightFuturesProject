@@ -1,10 +1,10 @@
 # Bright Futures
 
-![Bright Futures - Project Banner](/documentation/images/place filename for screenshot here)
+![Bright Futures - Project Banner](/documentation/images/home-page-screenshot)
 
 
 <p align="center">
-| <a href="place link here" target="_blank">Live Project</a> |
+| <a href="https://gerbil1511.github.io/BrightFuturesProject/index.html" target="_blank">Live Project</a> |
 </p>
 
 ## Introduction 
